@@ -1,0 +1,112 @@
+@import "partials/_variables";
+
+.secondaryColor {
+  color: $secondaryColour;
+}
+
+.secondaryColor-backgroundColor {
+  background-color: $secondaryColour;
+}
+
+.borderColor {
+  border: 2px solid $secondaryColour;
+}
+
+/* Layout*/
+.headerStyling {
+  text-align: center;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.search {
+  margin-right: 200px;
+}
+
+.link-hover {
+  &.grow {
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
+
+/* Landing page*/
+
+.cards {
+  min-width: 375px;
+  margin: auto;
+  margin-bottom: 50px;
+  &.grow {
+    transition: all 0.1s ease-in-out;
+
+    &:hover {
+      transform: scale(1.01);
+    }
+  }
+}
+
+/* Contact page*/
+
+.contactInputStyling {
+  width: 370px;
+  margin-left: 50px;
+  border: 2px solid $secondaryColour;
+}
+
+/*Login page*/
+
+.loginInput {
+  width: 400px;
+  min-height: 30px;
+  margin-bottom: 15px;
+  border: 2px solid $secondaryColour;
+  border-radius: 10px;
+  display: flex;
+}
+
+/*Message page*/
+.messageCard {
+  color: white;
+  padding: 15px;
+  min-width: 300px;
+  margin: auto;
+  margin-bottom: 100px;
+  background-color: $secondaryColour;
+}
+.messageText {
+  border: 2px solid white;
+  padding: 5px;
+}
+
+/*HotelSpecific page*/
+.hotelSpecificInput {
+  border: 2px solid $secondaryColour;
+  height: 30px;
+  width: 250px;
+  margin-bottom: 10px;
+}
+
+/*AdminEnquiries page*/
+.enquiriesCard {
+  min-width: 350px;
+  margin: auto;
+  margin-bottom: 100px;
+  color: white;
+  padding: 15px;
+}
+
+.enquiriesText {
+  border: 2px solid white;
+  padding: 5px;
+}
+
+/*Create Establishment page*/
+.createEstablishmentInput {
+  width: 400px;
+  height: 30px;
+  margin-bottom: 5px;
+  border: 2px solid $secondaryColour;
+}
